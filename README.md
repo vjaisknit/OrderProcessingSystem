@@ -68,16 +68,8 @@ xUnit is used for unit tests.
 Global exception handling is managed by a custom middleware.
 
 
-Technologies Used
-.NET 8
-ASP.NET Core Web API
-Entity Framework Core
-SQL Server
-IdentityServer & JWT for authentication & authorization
-Serilog for logging
-FluentValidation for validation
-AutoMapper for object mapping
-xUnit for testing
+Technologies Used - .NET 8, ASP.NET Core Web API, Entity Framework Core, SQL Server, IdentityServer & JWT for authentication & authorization,
+Serilog for logging, FluentValidation for validation,AutoMapper for object mapping, xUnit for testing
 
 
 
