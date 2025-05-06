@@ -1,6 +1,6 @@
-Order API - Clean Architecture (.NET 8)
+**Order API - Clean Architecture (.NET 8)**
 
-Overview
+**Overview**
 This is a Clean Architecture-based ASP.NET Core Web API application built on .NET 8. It includes:
 
 Authentication & Authorization using Identity + JWT
@@ -66,6 +66,7 @@ AutoMapper is used for object mapping.
 FluentValidation is used for validation.
 xUnit is used for unit tests.
 Global exception handling is managed by a custom middleware.
+
 
 Technologies Used
 .NET 8
