@@ -14,7 +14,7 @@ Global Exception Handling Middleware
 Fully adheres to OOP and SOLID principles
 
 
-Features
+**Features**
 
 Auth Controller
 Handles user registration and login.
@@ -43,11 +43,14 @@ Retrieves a single order by ID.
 
 Running the Application
 
-Create Migration
+**Enable entity framework **
+dotnet tool install --global dotnet-ef
+
+**Create Migration**
 Run the following command to create a migration for the database:
 dotnet ef migrations add Order-migration --project .\Domain --startup-project .\OrderApi
 
-Update Database
+**Update Database**
 Update the database with the migration:
 dotnet ef database update --project .\Domain --startup-project .\OrderApi
 
@@ -58,7 +61,7 @@ Use the POST /api/Auth/login endpoint to login and get a JWT token.
 Use the Token
 Include the JWT token in the Authorization header for accessing the Order API endpoints.
 
-Architecture & Design
+Architecture & Design: 
 The application follows Clean Architecture principles.
 It adheres to SOLID principles and OOP concepts.
 Serilog is used for logging.
